@@ -11,9 +11,9 @@ class Counter extends Component {
     const minus = () => this.setState({counter: counter-1})
     return (
       <div>
-        <button onClick={add}>+</button>
+        <button className='add' onClick={add}>+</button>
         <h1>{counter}</h1>
-        <button onClick={minus}>-</button>
+        <button className='minus' onClick={minus}>-</button>
       </div>
     );
   }
