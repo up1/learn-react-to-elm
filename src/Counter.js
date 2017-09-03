@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import * as State from './state'
-import { INCREMENT, DECREMENT } from './actions'
 import View from './View'
 
 class Counter extends Component {

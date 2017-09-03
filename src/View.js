@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { INCREMENT, DECREMENT } from './actions'
 
 class View extends Component {
-  constructor(props) {
-    super(props)
-  }
   render() {
     return(
       <div>
