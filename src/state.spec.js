@@ -18,5 +18,10 @@ describe('Counter state', () => {
       const state = State.init()
       expect(State.update('INCREMENT', state)).to.eql({ counter: 1 })
     })
+
+    it('ทำการลดขลงมา 1 ด้วย DECREMENT state', () => {
+      const state = State.init()
+      expect(State.update('DECREMENT', state)).to.eql({ counter: -1 })
+    })
   })
 })
